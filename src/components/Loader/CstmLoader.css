@@ -1,9 +1,10 @@
 .background{
-  background-color: #a5a5a56e;
+  background-color: rgba(255, 255, 255, 0.438);
   height: 100%;
   width: 100%;
+  position: fixed;
   z-index: 999;
-  /* pointer-events: none; */
+  /* backdrop-filter: blur(6px); */
 }
 
 .loading div{

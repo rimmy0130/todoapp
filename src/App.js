@@ -10,18 +10,20 @@ import NoAuthorized from './pages/NoAuthorized';
 
 function App() {
   return (
-    <Todo />
-    // <UserProvider>
-    //   <div className="App">
-    //     <BrowserRouter>
-    //       <Switch>
-    //         <Route path='/todos' exact component={Todo} />
-    //         <Route path='/checker/:id/:targetId' component={Checker} />
-    //         <Route path='/noauthorized' component={NoAuthorized} />
-    //       </Switch>
-    //     </BrowserRouter>
-    //   </div>
-    // </UserProvider>
+    // <div className="App">
+    //   <Todo />
+    // </div>
+    <UserProvider>
+      <div className="App">
+        <BrowserRouter>
+          <Switch>
+            <Route path='/todos' exact component={Todo} />
+            <Route path='/checker/:id/:targetId' component={Checker} />
+            <Route path='/noauthorized' component={NoAuthorized} />
+          </Switch>
+        </BrowserRouter>
+      </div>
+    </UserProvider>
   );
 }
   

@@ -66,7 +66,7 @@
     width: 80%;
     /* width: 32vh; */
     height: 45px;
-    font-family: 나눔스퀘어,나눔고딕,NanumGothic;
+    font-family: 나눔스퀘어,맑은고딕,NanumGothic;
     font-weight: 800;
     font-size: 18px;
     text-align: start;
@@ -108,7 +108,7 @@
 
 .itemCreatedby{
     /* background-color: aqua; */
-    font-family: 나눔스퀘어,나눔고딕,NanumGothic;
+    font-family: 나눔스퀘어,맑은고딕,NanumGothic;
     font-size: 15px;
     text-align: end;
     padding-right: 10px;

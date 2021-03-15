@@ -1,0 +1,16 @@
+.app-footer{
+    width: 100%;
+}
+
+.topBtn{
+    bottom: 5px;
+    right: 15px;
+    position: fixed;
+    font-size: 50px;
+    color: #0A6ED1;
+}
+
+.fa-chevron-circle-up{
+    background-color: white;
+    border-radius: 100%;
+}

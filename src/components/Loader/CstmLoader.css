@@ -1,0 +1,65 @@
+.background{
+  background-color: #a5a5a56e;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  /* pointer-events: none; */
+}
+
+.loading div{
+    position: fixed;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    transform: scale(0);
+    /* animation: dot 1.5s linear infinite; */
+    animation-name: rimmy;
+    animation-delay: 0s;
+    /* animation-direction: nomal; */
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 999;
+    
+    /* pointer-events: none; */
+  }
+  
+  .loading div:nth-child(1){
+    left: 31.25%;
+    animation-delay: -0.2s;
+    background-color: #0f85fc;
+  }
+  
+  .loading div:nth-child(2){
+    left: 43.75%;
+    animation-delay: -0.1s;
+    background-color: #0A6ED1;
+  }
+  
+  .loading div:nth-child(3){
+    left: 56.25%;
+    animation-delay: 0.0s;
+    background-color: #055bb1;
+  }
+
+  .loading div:nth-child(4){
+    left: 68.75%;
+    animation-delay: 0.1s;
+    background-color: #044688;
+  }
+  
+  @keyframes rimmy{
+    0% {
+      transform: scale(0);
+    }
+    35% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }

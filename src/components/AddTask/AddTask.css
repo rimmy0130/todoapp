@@ -1,0 +1,42 @@
+.addTask{
+    /* position: relative; */
+    margin: 10px 20px;
+    height: 50px;
+    box-sizing: content-box;
+    /* background-color: crimson; */
+}
+
+.taskInput{
+    width: 80%;
+    float: left;
+    height: 45px;
+    /* background-color:transparent; */
+}
+
+.taskInput .inputBox{
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px;
+    border-color: #0A6ED1;
+    border-style: solid;
+    border-right: 0;
+}   
+
+.inputBox:focus{
+    outline: none;
+}
+
+.taskBtn{
+    float: left;
+    background: #0A6ED1;
+    color: white;
+    width: 20%;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 1.2rem;
+    font-family: 나눔스퀘어,나눔고딕,NanumGothic;
+    font-weight: 600;
+    height: 45px;
+    line-height: 45px;
+    box-shadow: none;
+}
+

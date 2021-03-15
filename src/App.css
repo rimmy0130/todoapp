@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+/* 시작 */
+.app-header{
+  width: 100%;
+  /* height: 30px; */
+}
+
+.window-close{
+  top: 5px;
+  right: 10px;
+  position: fixed;
+  width: 30px;
+}
+
+.labelCompleted{
+  font-family: 나눔스퀘어,맑은고딕,NanumGothic;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: start;
+  margin: 0px 21px;
+}
+
+.itemsBox{
+  position: fixed;
+  top: 26vh;
+  width: 100%;
+  height: 76%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  z-index: 1;
+  /* background-color: #61dafb; */
+}

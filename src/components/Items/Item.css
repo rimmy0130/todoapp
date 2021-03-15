@@ -1,0 +1,115 @@
+.item-box{
+    /* background-color: rgb(238, 218, 43); */
+    height: 70px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px;
+    border-color: #0A6ED1;
+    border-style: solid;
+    /* box-shadow: 1px 1px 1px hotpink; */
+
+}
+
+.itemCheck{
+    float: left;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    border: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-color: #0A6ED1;
+    border-style: solid;
+}
+
+.itemInputCheck{
+    width: 25px;
+    height: 25px;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+/* .itemLabelCheck{ */
+    /* background: #0A6ED1; */
+    /* width: 25px; */
+    /* height: 25px; */
+    /* line-height: 25px; */
+    /* position: relative; */
+    /* border: 1px solid #0A6ED1; */
+    /* border-radius : 3px; */
+/* } */
+
+/* .itemLabelCheck:checked{
+    color: #000;
+} */
+
+.itemContent{
+    float: left;
+    /* background-color: brown; */
+    height: 100%;
+    width: 90%;
+    position: relative;
+}
+
+.contentHeader:after{
+    clear: both; 
+    display: block; 
+    content: '';
+}
+
+
+.itemTitle{
+    width: 80%;
+    /* width: 32vh; */
+    height: 45px;
+    font-family: 나눔스퀘어,나눔고딕,NanumGothic;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: start;
+    line-height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding: 0px 10px; */
+    float: left;
+    position: relative;
+}
+
+.titleInput{
+    height: 40px;
+    width: 100%;
+    /* width: 30vh; */
+    border: 0px;
+    font-weight: 800;
+    /* background-color: bisque; */
+    /* background-color:transparent; */
+}
+
+.titleInput:focus{
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #0A6ED1;
+    border-radius: 0px;
+    outline: none;
+}
+
+.itemDel{
+    /* width: 20px; */
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    padding-right: 10px;
+    /* background-color: #0A6ED1; */
+}
+
+.itemCreatedby{
+    /* background-color: aqua; */
+    font-family: 나눔스퀘어,나눔고딕,NanumGothic;
+    font-size: 15px;
+    text-align: end;
+    padding-right: 10px;
+}
